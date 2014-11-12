@@ -1,0 +1,7 @@
+1) Como os países estão conectados entre si através das tags do artista?
+	a) Esta pergunta visa saber onde e com que intensidade um estilo é produzido pelos países.
+	   Saber quais países também produzem artistas com a mesma tag
+	b) Os dados são 
+		~ artist_mbtag
+		~ pais
+		~ artista

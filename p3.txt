@@ -1,0 +1,9 @@
+Link para visualização:
+
+http://www.nytimes.com/interactive/2014/06/20/sports/worldcup/how-world-cup-players-are-connected.html?smid=fb-nytimes&WT.z_sma=SP_TC2_20140624&bicmp=AD&bicmlukp=WT.mc_id&bicmst=1388552400000&bicmet=1420088400000&_r=4
+
+A proposta da visualização é mostrar como as (a)seleções de futebol da Copa de 2014 se conectam umas às outras e aos (b)clubes de futebol através de seus (c)jogadores.
+Para isso, um grafo foi gerado considerando seleções e clubes como sendo nós e os jogadores como sendo arestas. De início há um overview e ao selecionar um nó, fica em evidêcia suas conexões com outros nós, bem como seus graus.  
+Uma boa maneira de estruturar os dados seria através de uma tabela na qual cada linha instancia um jogador com os atributos Clube e Seleção onde joga.
+
+Para atender à proposta, esta visualização 
