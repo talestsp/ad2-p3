@@ -10,3 +10,12 @@
 3) Quais são os possíveis agrupamentos de estilos musicais quanto ao hotness e familiarity?
 	a) Os atributos hotness e familiarity representam, a grosso modo, a aceitação das pessoas pela canção. Agrupar as tags para esta intenção é interessante para saber quais estilos são semelhantemente agrupados.
 	b) Serão utilizados os atributos artist_mbtag, hotness e familiarity.
+
+4) Como está relacionada a alta produção musical de uma tag com sua familiaridade? 
+	a) É interessante para saber se há validade na ideia de que muita produção concorrente atrapalha a divulgação da musica. A interação será através 
+
+	b)
+	> TABELA subset_track_metadata.db
+	>>> ATRIBUTO artist_mbid
+	>>> ATRIBUTO artist_id
+	>>> ATRIBUTO artist_familiarity
