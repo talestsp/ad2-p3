@@ -1,14 +1,12 @@
-1) Como os países estão conectados entre si através das tags do artista?
-	a) Esta pergunta visa saber onde e com que intensidade um estilo é produzido pelos países.
-	   Saber quais países também produzem artistas com a mesma tag
-	b) Os dados são 
-		~ artist_mbtag
-		~ pais
-		~ artista
+1) Quais tags são comuns aos estados dos EUA?
+	a) Esta pergunta visa saber qual é a relação musical entre dois estados através da produção musical de uma tag em comum a ambos.
+	b) Os atributos são artist_mbtag e o estado estadounidense que pode ser inferido através das coordenadas GPS disponibilizadas no grupo do Piazza.
 
 
-dividir em duas perguntas
+2) A que estados as tags estão associadas?
+	a) Partindo da ideia de que as regiões de um país tão grande possuem culturas diferentes, esta visualização vai trazer à tona onde está sendo produzida cada tag.
+	b) Os atributos serão artist_mbtag e o estado estadounidense que pode ser inferido através das coordenadas GPS disponibilizadas no grupo do Piazza.
 
-interatividade em detalhes por exemplo zoom
-overview zooo e filtro
-
+3) Quais são os possíveis agrupamentos de estilos musicais quanto ao hotness e familiarity?
+	a) Os atributos hotness e familiarity representam, a grosso modo, a aceitação das pessoas pela canção. Agrupar as tags para esta intenção é interessante para saber quais estilos são semelhantemente agrupados.
+	b) Serão utilizados os atributos artist_mbtag, hotness e familiarity.
