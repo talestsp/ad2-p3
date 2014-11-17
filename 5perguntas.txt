@@ -5,3 +5,10 @@
 		~ artist_mbtag
 		~ pais
 		~ artista
+
+
+dividir em duas perguntas
+
+interatividade em detalhes por exemplo zoom
+overview zooo e filtro
+
