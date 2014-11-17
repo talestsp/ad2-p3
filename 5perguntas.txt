@@ -12,7 +12,7 @@
 	b) Serão utilizados os atributos artist_mbtag, hotness e familiarity.
 
 4) Como está relacionada a alta produção musical de uma tag com sua familiaridade? 
-	a) É interessante para saber se há validade na ideia de que muita produção concorrente atrapalha a divulgação da musica. A interação será através 
+	a) É interessante para saber se há validade na ideia de que muita produção concorrente atrapalha a divulgação da musica. A interação será através da seleção dos generos (tags).
 
 	b)
 	> TABELA subset_track_metadata.db
