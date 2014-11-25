@@ -1,0 +1,3 @@
+Cores representando magnitudes 
+	~ Saturação da cor
+	~ Contraste inspirado em sangue vs roupa do cirurgião
