@@ -8,22 +8,22 @@
 
 
 <body>
-
-<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
-
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
-<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
 <script src="core.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 <script src="http://datamaps.github.io/scripts/datamaps.all.min.js"></script>
-
+<script src="../lib/d3.js"></script>
+<script src="../lib/d3.layout.cloud.js"></script>
 
 <!--<div id="container" style="position: relative; width: 1000px; height: 600px;"></div> -->
 <div>
@@ -33,7 +33,7 @@
         </div>
 </div>
 
-    <div id="tag_list" class="col-md-3" align="right" >
+    <div id="tag_list" class="col-md-3" align="center" >
         <br>
         <br>
         <br>
@@ -45,48 +45,61 @@
             <h2>tags</h2>
         </div>
 
-        <div id="american" onmouseenter="highlight3()">
-            <strong>american</strong>
+        <div>
+            <strong id="american" onmouseover="states_by_tag(this)">american</strong>
+
         </div>
 
-        <div id="classic pop and rock" onmouseenter="highlight2()">
-            <strong>lassic pop and rock</strong>
+        <div>
+            <strong id="classic pop and rock" onmouseover="states_by_tag(this)">classic pop and rock</strong>
         </div>
 
-        <div id="rock" onmouseenter="highlight4()">
-            <strong>rock</strong>
+        <div>
+            <strong id="rock" onmouseover="states_by_tag(this)">rock</strong>
         </div>
 
-        <div id="british" onmouseenter="highlight('british')">
-            <strong>british</strong>
+        <div>
+            <strong id="british" onmouseover="states_by_tag(this)">british</strong>
         </div>
 
-        <div id="rock and indie" onmouseenter="highlight('rock and indie')">
-            <strong>rock and indie</strong>
+        <div>
+            <strong id="rock and indie" onmouseover="states_by_tag(this)">rock and indie</strong>
         </div>
 
-        <div id="uk" onmouseenter="highlight('uk')">
-            <strong>uk</strong>
+        <div >
+            <strong id="folk" onmouseover="states_by_tag(this)">folk</strong>
         </div>
 
-        <div id="english" onmouseenter="highlight('english')">
-            <strong>english</strong>
+        <div>
+            <strong  id="punk" onmouseover="states_by_tag(this)">punk</strong>
         </div>
 
-        <div id="folk" onmouseenter="highlight('folk')">
-            <strong>folk</strong>
+        <div>
+            <strong  id="usa" onmouseover="states_by_tag(this)">usa</strong>
         </div>
 
-        <div id="punk" onmouseenter="highlight('punk')">
-            <strong>punk</strong>
+        <div>
+            <strong id="pop" onmouseover="states_by_tag(this)">pop</strong>
         </div>
 
-        <div id="usa" onmouseenter="highlight('usa')">
-            <strong>usa</strong>
+        <div>
+            <strong id=" hip hop rnb and dance hall" onmouseover="states_by_tag(this)">hip hop rnb and dance hall</strong>
         </div>
 
-        <div id="pop" onmouseenter="highlight('pop')">
-            <strong>pop</strong>
+        <div>
+            <strong id="electronic" onmouseover="states_by_tag(this)">electronic</strong>
+        </div>
+
+        <div>
+            <strong id="alternative rock" onmouseover="states_by_tag(this)">alternative rock</strong>
+        </div>
+
+        <div>
+            <strong id="blues" onmouseover="states_by_tag(this)">blues</strong>
+        </div>
+
+        <div>
+            <strong id="jazz" onmouseover="states_by_tag(this)">jazz</strong>
         </div>
 
     </div>
@@ -100,10 +113,7 @@
 </div>
 
 
-
 <script src="Datamap.js"></script>
-
-
 
 </body>
 

@@ -1,14 +1,38 @@
-function highlight(data) {
-    document.getElementById("tag_escolhida").innerHTML = data;
-}
-
-function highlight2() {
+function states_by_tag(self) {
 
     var req = createXMLHTTPObject();
     req.withCredentials = true;
 
-    $.getJSON("http://localhost:9090/tags_states", function( data ) {
-        console.log("deu certo"); // use data as a generic object
+	var url = "http://localhost:9090/states_by_tag?tag=" + self.innerHTML
+
+    $.getJSON(url, function( data ) {
+        console.log("states " + self.innerHTML); // use data as a generic object
+        console.log(data);
+    });
+}
+
+function tags_by_state(self) {
+
+    var req = createXMLHTTPObject();
+    req.withCredentials = true;
+
+	var url = "http://localhost:9090/tags_by_state?state=" + self.innerHTML
+
+    $.getJSON(url, function( data ) {
+        console.log("deu certo " + self.innerHTML); // use data as a generic object
+        console.log(data);
+    });
+    }
+
+function states_by_tag2(tag) {
+
+    var req = createXMLHTTPObject();
+    req.withCredentials = true;
+
+	var url = "http://localhost:9090/states_by_tag?tag=" + tag
+
+    $.getJSON(url, function( data ) {
+        console.log("deu certo " + tag.text); // use data as a generic object
     });
 }
 
