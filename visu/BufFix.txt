@@ -1,0 +1,7 @@
+================
+=== TagCloud ===
+================
+
+1) Chamadas a popupTemplate acontece SEMPRE que o mouse está sobrevoando o estado.
+2) A chamada deve ser assíncrona. Está travando a visualização.
+3) Cada nova chamada para desenhar wordcloud, é inserida uma nova wordcloud

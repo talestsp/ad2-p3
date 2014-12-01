@@ -28,57 +28,23 @@
 
 <!--<div id="container" style="position: relative; width: 1000px; height: 600px;"></div> -->
 <div>
-    <div class="col-md-8">
-        <div id="container" style="position: relative; width: 1000px; height: 600px;">
+    <div class="col-md-6">
+        <div id="container" align="left" style="position: relative; width: 800px; height: 600px;">
 
         </div>
-</div>
+</div >
 
-    <div id="wcloud" class="col-md-4" align="right" >
+    <div class="col-md-2"></div>
+
+    <div id="wcloud" class="col-md-6" align="center" >
         <br>
         <br>
         <br>
         <br>
+        <br>
 
 
-        <script>
-
-function desenhar(words) {
-         var fill = d3.scale.category20();
-
-          d3.layout.cloud().size([400, 300])
-          .words(words.map(function(d) {
-            return {text: d, size: 10 + Math.random() * 90};
-          }))
-          .padding(5)
-          .rotate(function() { return ~~(Math.random() * 2) * 90; })
-          .font("Impact")
-          .fontSize(function(d) { return d.size; })
-          .on("end", draw)
-          .start();
-
-
-        function draw(words) {
-        d3.select("#wcloud").append("svg")
-            .attr("id", "cloud_id")
-            .attr("width", 400)
-            .attr("height", 300)
-          .append("g")
-            .attr("transform", "translate(150,150)")
-          .selectAll("text")
-            .data(words)
-          .enter().append("text")
-            .style("font-size", function(d) { return d.size + "px"; })
-            .style("font-family", "Impact")
-            .style("fill", function(d, i) { return fill(i); })
-            .attr("text-anchor", "middle")
-            .attr("transform", function(d) {
-              return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-            })
-            .text(function(d) { return d.text; });
-  }
-  }
-</script>
+        <script src="wordcloud.js"></script>
 
     </div>
 
@@ -86,7 +52,7 @@ function desenhar(words) {
 </div>
 
 
-<script src="Datamap2.js"></script>
+<script src="Datamap_WCloud.js"></script>
 
 
 

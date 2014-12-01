@@ -22,3 +22,7 @@
 
 5) Como estão agrupados os artistas baseados em suas distâncias?
 	a) É interessante saber quais artistas possuem
+
+6) Quais as tags mais recorrentes em cada estado americano?
+	a) Esta pergunta brota da curiosidade de saber quais estilos são produzidos no estado selecionado.
+	b) Os atributos são os estados são derivados das localizações GPS do artista.
