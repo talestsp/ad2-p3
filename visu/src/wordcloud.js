@@ -17,7 +17,7 @@ function desenharWCloud(words) {
         function draw(words) {
         d3.select("#cloud_id").remove();
 
-        d3.select("#wcloud").append("svg")
+        d3.select("#show").append("svg")
             .attr("id", "cloud_id")
             .attr("width", 400)
             .attr("height", 400)
@@ -35,4 +35,9 @@ function desenharWCloud(words) {
             })
             .text(function(d) { return d.text; });
   }
+  }
+
+  var mouseDown = 0;
+  document.body.onmousedown = function() {
+    mouseDown = 1;
   }

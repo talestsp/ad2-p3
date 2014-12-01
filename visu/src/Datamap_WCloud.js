@@ -8,7 +8,7 @@ var state_selected = "none";
         highlightBorderColor: '#66E649',
         popupTemplate: function(geography, data) {
 
-            if(geography.properties.name != state_selected){
+            if(geography.properties.name != state_selected && mouseDown == 1){
 
                 state_selected = geography.properties.name;
 
@@ -18,7 +18,9 @@ var state_selected = "none";
                 $.getJSON(url, function( data ) {
                     console.log("tags " + geography.properties.name); // use data as a generic object
                     //console.log(data);
+                    console.log("mouseDown " + mouseDown);
                     desenharWCloud(data);
+                    mouseDown = -1
                 });
 
                 return '<div class="hoverinfo">' + geography.properties.name + 'Tag ocurrence:' +  data.occurrence + ' '
