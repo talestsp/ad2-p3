@@ -27,8 +27,8 @@
       <file leaf-file-name="tagcloud.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tagcloud.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2156863" vertical-offset="646" max-vertical-offset="1005">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+            <state vertical-scroll-proportion="-3.509804" vertical-offset="541" max-vertical-offset="1230">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,18 +39,18 @@
       <file leaf-file-name="Datamap.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Datamap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76829267" vertical-offset="0" max-vertical-offset="720">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.73170733" vertical-offset="45" max-vertical-offset="750">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Datamap_BarGraph.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Datamap_BarGraph.js">
+      <file leaf-file-name="bargraph.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bargraph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-              <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -60,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/wordcloud.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <caret line="0" column="23" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -77,9 +77,10 @@
         <option value="$PROJECT_DIR$/src/wordcloud.js" />
         <option value="$PROJECT_DIR$/src/Datamap_bargraph.js" />
         <option value="$PROJECT_DIR$/src/Datamap_BarGraph.js" />
-        <option value="$PROJECT_DIR$/src/Datamap.js" />
         <option value="$PROJECT_DIR$/src/Datamap_WCloud.js" />
         <option value="$PROJECT_DIR$/src/tagcloud.html" />
+        <option value="$PROJECT_DIR$/src/bargraph.js" />
+        <option value="$PROJECT_DIR$/src/Datamap.js" />
       </list>
     </option>
   </component>
@@ -513,10 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Datamap_BarGraph.js">
+    <entry file="file://$PROJECT_DIR$/src/bargraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
-          <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -524,15 +525,15 @@
     <entry file="file://$PROJECT_DIR$/src/wordcloud.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tagcloud.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2156863" vertical-offset="646" max-vertical-offset="1005">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state vertical-scroll-proportion="-3.509804" vertical-offset="541" max-vertical-offset="1230">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -541,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Datamap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76829267" vertical-offset="0" max-vertical-offset="720">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.73170733" vertical-offset="45" max-vertical-offset="750">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
       </provider>

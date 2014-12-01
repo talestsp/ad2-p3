@@ -18,9 +18,11 @@ var state_selected = "none";
                 $.getJSON(url, function( data ) {
                     console.log("tags " + geography.properties.name); // use data as a generic object
                     //console.log(data);
-                    console.log("mouseDown " + mouseDown);
+                    //console.log("mouseDown " + mouseDown);
                     //if barplot desenharbarplot
-                    desenharWCloud(data);
+                    //desenharBarGraph(data);
+                    desenharWCloud(data)
+
                     mouseDown = -1
                 });
 

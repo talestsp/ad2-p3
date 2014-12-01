@@ -25,16 +25,19 @@
 <script src="http://datamaps.github.io/scripts/datamaps.all.min.js"></script>
 <script src="../lib/d3.js"></script>
 <script src="../lib/d3.layout.cloud.js"></script>
+<script src="wordcloud.js"></script>
+<script src="bargraph.js"></script>
 
 <!--<div id="container" style="position: relative; width: 1000px; height: 600px;"></div> -->
-<div>
+<div id="main_div">
     <div class="col-md-6">
         <div id="container" align="left" style="position: relative; width: 800px; height: 600px;">
 
         </div>
-</div >
+    </div >
+    <div class="col-md-2">
 
-    <div class="col-md-2"></div>
+    </div>
 
     <div id="show" class="col-md-6" align="center" >
         <br>
@@ -42,21 +45,33 @@
         <br>
         <br>
         <br>
+        <div class="chart">
 
-
-        <script src="wordcloud.js"></script>
+        </div>
 
     </div>
 
 
+
 </div>
 
-
+<!- por que só funciona aqui? -->
 <script src="Datamap.js"></script>
-
 
 
 </body>
 
+<style>
+
+    .chart div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+    }
+
+</style>
 
 </html>
