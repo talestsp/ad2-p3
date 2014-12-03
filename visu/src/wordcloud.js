@@ -15,10 +15,10 @@ function desenharWCloud(words) {
 
 //limpar a div #wcloud
         function draw(words) {
-        d3.select("#cloud_id").remove();
+        d3.selectAll("#pasted").remove();
 
         d3.select("#show").append("svg")
-            .attr("id", "cloud_id")
+            .attr("id", "pasted")
             .attr("width", 400)
             .attr("height", 400)
           .append("g")
@@ -37,7 +37,3 @@ function desenharWCloud(words) {
   }
   }
 
-  var mouseDown = 0;
-  document.body.onmousedown = function() {
-    mouseDown = 1;
-  }
