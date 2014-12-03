@@ -3,7 +3,7 @@ function desenharWCloud(words) {
 
           d3.layout.cloud().size([400, 300])
           .words(words.map(function(d) {
-            return {text: d, size: 10 + Math.random() * 90};
+            return {text: d, size: 10 + Math.random() * 50};
           }))
           .padding(5)
           .rotate(function() { return ~~(Math.random() * 2) * 90; })
